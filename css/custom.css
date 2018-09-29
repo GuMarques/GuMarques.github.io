@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'Canter';
+    src: url('/fonts/Canter\ Light.otf');
+    src: url('/fonts/Canter\ Light.otf?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+
+    font-family: 'Canter-Bold';
+    src: url("/fonts/Canter\ Bold.otf");
+    src: url('/fonts/Canter\ Bold.otf?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#menu {
+    font-family: Canter;
+}
+
+body {
+    background: #808080;
+}
