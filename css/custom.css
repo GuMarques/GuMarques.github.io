@@ -13,8 +13,53 @@
 }
 body {
     background: #808080;
+    margin: 0px;
 }
-/*Menu*/
+
+/* Preloader */
+
+.preloader {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+}
+.box {
+    width: 50vw;
+    height: 50vh;
+    background: url('/img/logo.png') no-repeat center;
+    background-size: contain;
+    animation: fadeIn 3s linear 0s infinite;
+
+}
+
+@keyframes fadeIn {
+    0%   { opacity: 0; }
+    10%  { opacity: 0; }
+    20%  { opacity: 0.2; }
+    30%  { opacity: 0.4; }
+    40%  { opacity: 0.8; }
+    50%  { opacity: 1; }
+    60%  { opacity: 0.8; }
+    70%  { opacity: 0.4; }
+    80%  { opacity: 0.2; }
+    90%  { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    
+    to {
+        opacity: 0;
+    }
+}
+
+/* Menu */
 
 #menu {
     font-family: Canter;
