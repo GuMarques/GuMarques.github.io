@@ -10,3 +10,13 @@ $(document).ready(function(){
     /* Menu Mobile */
     $('.sidenav').sidenav();
 });
+
+/* Colapsable Perfil */
+$(document).ready(function(){
+    $('.collapsible').collapsible();
+});
+
+/* Parallax Habilidades */
+$(document).ready(function(){
+    $('.parallax').parallax();
+  });
