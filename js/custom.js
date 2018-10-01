@@ -7,16 +7,14 @@ $('.content').hide();
 $(document).ready(function(){
     $('.preloader').hide();
     $('.content').show();
+    /* Headroom Menu */
+    var myElement = document.querySelector("header");
+    var headroom = new Headroom(myElement);
+    headroom.init();
     /* Menu Mobile */
     $('.sidenav').sidenav();
-});
-
-/* Colapsable Perfil */
-$(document).ready(function(){
+    /* Colapsable Perfil */
     $('.collapsible').collapsible();
+    /* Parallax Habilidades */
+    $('.parallax').parallax();    
 });
-
-/* Parallax Habilidades */
-$(document).ready(function(){
-    $('.parallax').parallax();
-  });

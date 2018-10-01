@@ -77,6 +77,28 @@ body {
     font-weight: bold;
 }
 
+/* Headroom Menu */
+.headroom--pinned {
+	transform: translateY(0);
+}
+
+.headroom--unpinned {
+	transform: translateY(-100%);
+}
+
+.header--fixed {
+	position: fixed;
+	z-index: 10;
+	right: 0;
+	left: 0;
+    top: 0;
+    transition: all .3s ease 0s;
+}
+
+.menu-position {
+    height: 50px;
+}
+
 /* Underline Menu */
 .hvr-underline-from-left {
     display: inline-block;
@@ -132,7 +154,7 @@ body {
 
 .info-h1 {
     font-family: Canter_Bold;
-    font-size: 6vw;
+    font-size: 14vh;
     animation: leftFade 1s;
 }
 
