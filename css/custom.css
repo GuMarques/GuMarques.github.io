@@ -22,6 +22,11 @@
     font-weight: 800;
 }
 
+/* Retirar barra de rolagem horizontal */
+html {
+    overflow-x: hidden;
+}
+
 body {
     background: #808080;
     margin: 0px;

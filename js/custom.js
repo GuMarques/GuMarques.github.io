@@ -4,9 +4,11 @@
 /* Preloader */
 $('.preloader').show();
 $('.content').hide();
-$(document).ready(function(){
+$(window).on('load', function(){
     $('.preloader').hide();
     $('.content').show();
+});
+$(document).ready(function(){
     /* Headroom Menu */
     var myElement = document.querySelector("header");
     var headroom = new Headroom(myElement);
