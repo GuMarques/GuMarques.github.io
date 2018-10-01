@@ -95,10 +95,6 @@ body {
     transition: all .3s ease 0s;
 }
 
-.menu-position {
-    height: 50px;
-}
-
 /* Underline Menu */
 .hvr-underline-from-left {
     display: inline-block;
@@ -129,8 +125,11 @@ body {
     right: 0;
 }
 
-/* Perfil */
+.menu-position {
+    height: 50px;
+}
 
+/* Perfil */
 .personal-photo {
     width: 80%;
     animation: rightFade 1s;
