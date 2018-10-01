@@ -1,13 +1,10 @@
-
-/* JQuery */
-
 /* Preloader */
 $('.preloader').show();
 $('.content').hide();
-$(window).on('load', function(){
+window.onload = function() {
     $('.preloader').hide();
     $('.content').show();
-});
+};
 $(document).ready(function(){
     /* Headroom Menu */
     var myElement = document.querySelector("header");
